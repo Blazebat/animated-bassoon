@@ -2,7 +2,7 @@
   "name": "animated-bassoon",
   "version": "1.0.0",
   "private": true,
-  "dependencies": {
-    "vercel-python": "0.5.2"
+  "engines": {
+    "node": "18.x"
   }
 }
