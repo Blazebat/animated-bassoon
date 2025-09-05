@@ -1,4 +1,5 @@
 {
+  "version": 2,
   "builds": [
     { "src": "index.html", "use": "@vercel/static" },
     { "src": "style.css", "use": "@vercel/static" },
@@ -7,6 +8,6 @@
   ],
   "routes": [
     { "src": "/api/(.*)", "dest": "/api/$1.py" },
-    { "src": "/(.*)", "dest": "/index.html" }
+    { "src": "/(.*)",       "dest": "/index.html" }
   ]
 }
